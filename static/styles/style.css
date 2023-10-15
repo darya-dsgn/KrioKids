@@ -1,0 +1,75 @@
+body {
+    background: url(bg.jpg);
+    color: #fff;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat Alternates';
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+ul,
+li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 1170px;
+    /*позиционирование по центру*/
+    margin: 0 auto;
+    margin-left: 340px;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding-left: 0px;
+    align-items: center;
+}
+
+.nav>li {
+    margin-left: 15px;
+    margin-right: 16px;
+    margin-top: -35px;
+    padding-bottom: 32px;
+    letter-spacing: -0.5px;
+
+}
+
+.nav>li>a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.tel {
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: auto;
+}
+
+.header>img {
+    width: 152px;
+    height: 33px;
+    margin-top: 30px;
+    margin-left: 125px;
+}
+
+
+.header {
+    background: url('../images/header.png') no-repeat center top;
+
+}
